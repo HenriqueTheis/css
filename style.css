@@ -1,0 +1,63 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 230);
+}
+pre {
+    color: blue
+}
+h1, h2, h3, h4, h5 {
+    color: #333333;
+    font-size: 26px; 
+}
+strong {
+    color: #FF5733; 
+}
+mark {
+    background-color: rgb(0, 255, 191);
+    color: black;
+}
+a {
+    color: #0962bb;
+    text-decoration: none;
+}
+a:hover {
+    color: orangered;
+}
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 30vw;
+    height: 30vh;
+}
+
+th, td {
+    border: 1px solid #000000;
+}
+th{
+    background-color: rgb(245, 241, 237);
+}
+
+iframe {
+    width: 30vw;
+    height: 30vh;
+    border: none;
+}
+ul {
+    list-style-type: circle;
+}
+
+ol li {
+    text-transform: capitalize;
+}
+.centerhtml {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.right-align {
+    display: block;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
